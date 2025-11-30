@@ -1,0 +1,4 @@
+# melos_managed_dependency_overrides: ali_vc_interaction_message
+dependency_overrides:
+  ali_vc_interaction_message:
+    path: ..

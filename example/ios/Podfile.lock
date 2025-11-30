@@ -1,0 +1,37 @@
+PODS:
+  - ali_vc_interaction_message (0.0.1):
+    - AliVCInteractionMessage
+    - Flutter
+  - AliVCInteractionMessage (1.8.0):
+    - AliVCInteractionMessage/Default (= 1.8.0)
+  - AliVCInteractionMessage/Default (1.8.0)
+  - Flutter (1.0.0)
+  - integration_test (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - ali_vc_interaction_message (from `.symlinks/plugins/ali_vc_interaction_message/ios`)
+  - Flutter (from `Flutter`)
+  - integration_test (from `.symlinks/plugins/integration_test/ios`)
+
+SPEC REPOS:
+  trunk:
+    - AliVCInteractionMessage
+
+EXTERNAL SOURCES:
+  ali_vc_interaction_message:
+    :path: ".symlinks/plugins/ali_vc_interaction_message/ios"
+  Flutter:
+    :path: Flutter
+  integration_test:
+    :path: ".symlinks/plugins/integration_test/ios"
+
+SPEC CHECKSUMS:
+  ali_vc_interaction_message: d5b674b650fd22119bb82bd738ef742e75c2acf7
+  AliVCInteractionMessage: 84edc775865ab54a43e085d5b7660e345e8f80d0
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  integration_test: 4a889634ef21a45d28d50d622cf412dc6d9f586e
+
+PODFILE CHECKSUM: 819463e6a0290f5a72f145ba7cde16e8b6ef0796
+
+COCOAPODS: 1.16.2
