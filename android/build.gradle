@@ -57,6 +57,7 @@ android {
 
     dependencies {
         implementation "com.aliyun.sdk.android:AliVCInteractionMessage:1.8.0"
+        implementation 'com.google.code.gson:gson:2.8.6'
 
         testImplementation("junit:junit:4.13.2")
         testImplementation("org.mockito:mockito-core:5.0.0")

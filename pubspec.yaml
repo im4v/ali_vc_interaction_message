@@ -1,6 +1,6 @@
 name: ali_vc_interaction_message
 description: "Flutter plugin for Aliyun live interaction message"
-version: 0.0.1
+version: 0.1.0
 homepage: https://github.com/im4v/ali_vc_interaction_message.git
 
 environment:

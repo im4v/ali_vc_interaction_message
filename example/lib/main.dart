@@ -22,7 +22,9 @@ class _MyAppState extends State<MyApp> {
   @override
   void initState() {
     super.initState();
-    _aliVcInteractionMessagePlugin.listen((map) {
+    final StreamSubscription subscription =
+        _aliVcInteractionMessagePlugin.addHandlerListen();
+    subscription.onData((map) {
       if (map['code'] == 200) {
         if (map['method'] == 'joinGroup') {
           print('加入群组成功');
