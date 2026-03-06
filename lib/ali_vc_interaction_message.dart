@@ -32,7 +32,7 @@ class AliVcInteractionMessage {
   AliVcInteractionMessage._internal();
 
   // 订阅
-  StreamSubscription? _streamSubscription;
+  // StreamSubscription? _streamSubscription;
   // 接收函数
   // TypeOnRecvData? _onRecvData;
   final _subscriptions = <StreamSubscription>[];

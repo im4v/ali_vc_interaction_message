@@ -161,6 +161,7 @@ class MethodChannelAliVcInteractionMessage
 
   /// 查询禁言用户
   /// [groupId] 群组ID
+  @override
   Future<void> listMuteUsers({required String groupId}) async {
     await methodChannel.invokeMethod<void>('listMuteUsers', {
       'groupId': groupId,
